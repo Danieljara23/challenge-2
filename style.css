@@ -42,12 +42,21 @@ ul li a {
 }
 
 .info {
+  width: 40%;
   color: #FFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 50px;
+  padding: 180px 100px 250px 100px;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.info p{
+  margin: 15px 0;
 }
 
 .info p>span {
@@ -68,7 +77,6 @@ hr {
 
 .containers {
   display: flex;
-  gap: 50px;
   margin: 40px;
 }
 
@@ -78,6 +86,7 @@ hr {
   border-bottom: 4px solid #2193B0;
   background: #FFF;
   padding: 50px 15px;
+  margin: 0 20px;
 }
 
 #services {
@@ -91,10 +100,14 @@ hr {
   ;
 }
 
+#about .containers {
+  gap: 50px;
+}
+
 .black-title {
   color: black;
   text-align: center;
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -105,7 +118,7 @@ hr {
   font-weight: 600;
 }
 
-#title-container {
+.title-container {
   color: #000;
   text-align: center;
   font-size: 16px;
@@ -114,7 +127,7 @@ hr {
   line-height: normal;
 }
 
-#text-container {
+.text-container {
   color: #000;
   text-align: center;
   font-size: 14px;
@@ -127,4 +140,143 @@ hr {
   background-color: #FFF;
   text-align: center;
   padding: 50px 133px 104px 133px;
+}
+
+.container-education {
+  border-radius: 10px;
+  border: 1px solid #F5F5F5;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  padding: 20px 22px 25px 22px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.container-education>p.title-container,
+p.text-container {
+  text-align: left;
+
+}
+
+.container-education span {
+  padding: 3px 13px;
+  border-radius: 3px;
+  background: #FFB470;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#about .title-container {
+  text-align: left;
+}
+
+#portafolio {
+  background-color: #FBFBFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 133px 104px 133px;
+}
+
+.categories {
+  margin: 40px auto 70px auto;
+}
+
+.categories li a {
+  color: #6DD5ED;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  padding: 8px 24px;
+  border-radius: 30px;
+  border: 1px solid #6DD5ED;
+  background: #FFF;
+}
+
+.categories li a.active {
+  background: #6DD5ED;
+  color: #FFF;
+}
+
+.categories li a:hover {
+  background: #6DD5ED;
+  color: #FFF;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 80%;
+}
+
+.gallery img {
+  object-fit: cover;
+}
+
+.coffee p{
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#contact span {
+  font-weight: 700;
+}
+
+.coffee {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.59) 0%, rgba(0, 0, 0, 0.59) 100%), url(assets/pxfuel.jpg), lightgray 50%;
+  color: #FFF;
+  padding: 130px 230px 110px 230px;
+  background-position: center center;
+}
+
+.social-media {
+  background-color: #2193B0;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 45px;
+}
+
+.social-media ul {
+  align-items: center;
+  justify-content: center;
+  padding: 40px 133px;
+}
+
+.social-media ul a img{
+  width: 40px;
+}
+
+.social-link{
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/*BREAKPOINT PARA CELULAR*/
+@media (min-width:320px) and (max-width: 480px) {
+
+}
+
+/*BREAKPOINT PARA TABLETS*/
+@media  and {
+  
 }
