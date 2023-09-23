@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,300&display=swap');
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins'
+} 
+
+.hero {
+    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
+    color: white;
+}
+.rectangle {
+    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
+    font-weight: 700;
+    color: white;
+
+}
