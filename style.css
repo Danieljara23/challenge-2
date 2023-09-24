@@ -4,13 +4,13 @@
     margin: 0;
     font-family: 'Poppins'
 } 
+
 li {
 font-size: 16px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
-    
 }
 .hero {
     background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
@@ -49,6 +49,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
 h3 {
    font-size: 16px;
@@ -56,6 +57,7 @@ h3 {
    letter-spacing: 0em;
    text-align: center;
    color:  #2193B0;
+   margin-top: 45px;
 }
 h2 { 
     font-size: 23px;
@@ -64,17 +66,17 @@ h2 {
     letter-spacing: 0em;
     text-align: center;
     color: #4A4A4A;
+    margin-bottom: 15px;
 }
 .card-container {
     display: flex;
     align-items: center;
     background-color: white;
-    width: 203.54px;
-    height: 240.59px;
+    height: 235.59px;
+    Width: 200.54px;
     top: 678px;
     left: 95px;
     border-radius: 10px;
-    border: 0px, 0px, 4px, 0px; 
     border-bottom: 4px solid #2193B0
 }
 .line4 {
@@ -83,7 +85,7 @@ h2 {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .line5 {
     font-size: 12px; 
@@ -93,11 +95,12 @@ h2 {
     text-align: center;
 
 }
-.camera {
+.icone {
     display: flex;
     justify-content: center;
 }
-   .card-1 {
+   .card-info {
+    gap: 12px;
     display: flex;
     flex-direction: column;
     width: 184.5px;
@@ -105,8 +108,84 @@ h2 {
     margin:45px 5px 0px 7px;
     align-items: center;
    }
-   img {
-    width: 46.34px;
-    height: 51px;
-   }
-  
+  .my-resume {
+   width: 339px;
+   height: 1281px;
+   top: 1616px;
+   left: 27px; 
+   border: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 30px;
+   gap: 15px;
+   margin-bottom: 80px;
+  }
+  .education-experience {
+    display: block;
+   display: grid;
+   gap: 26px;
+   margin-bottom: 50px;
+  }
+  h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  h5 {
+    text-align: left;
+  }
+  .educard-container {
+    width: 339px;
+    height: 152px;
+    border-radius: 10px;
+    border-color: rgba(245, 245, 245, 1);
+    box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background-color: rgba(254, 254, 254, 1) ;
+  }
+  .educard-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+  .line6{
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(138, 138, 138, 1);
+  }
+  .date-container {
+    background-color: rgba(255, 180, 112, 1);
+    width: 67.36px;
+    height: 19px;
+    top: 1817px;
+    left: 41.03px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  .date {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 2px;
+  }
+
+
+
+
+
+  .box {
+    width: 393px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
