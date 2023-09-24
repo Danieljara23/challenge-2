@@ -2,16 +2,111 @@
  * {
     padding: 0;
     margin: 0;
-    font-family: 'poppins'
+    font-family: 'Poppins'
 } 
-
+li {
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+    
+}
 .hero {
     background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
     color: white;
+    width: 393px; 
+    height: 551px;
 }
-.rectangle {
-    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
-    font-weight: 700;
-    color: white;
+.line2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
+header {
+    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
+    color: white;
+    width: 393px;
+    height: 87px;
+    left: 3px; 
+
+}
+.what-I-do {
+    width: 393px;
+    height: 1009px;
+    top: 551px;
+    background: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+   font-size: 16px;
+   font-weight: 600;
+   letter-spacing: 0em;
+   text-align: center;
+   color:  #2193B0;
+}
+h2 { 
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4A4A4A;
+}
+.card-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 203.54px;
+    height: 240.59px;
+    top: 678px;
+    left: 95px;
+    border-radius: 10px;
+    border: 0px, 0px, 4px, 0px; 
+    border-bottom: 4px solid #2193B0
+}
+.line4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.line5 {
+    font-size: 12px; 
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em; 
+    text-align: center;
+
+}
+.camera {
+    display: flex;
+    justify-content: center;
+}
+   .card-1 {
+    display: flex;
+    flex-direction: column;
+    width: 184.5px;
+    height: 166.49px;
+    margin:45px 5px 0px 7px;
+    align-items: center;
+   }
+   img {
+    width: 46.34px;
+    height: 51px;
+   }
+  
