@@ -277,6 +277,16 @@ p.text-container {
 }
 
 /*BREAKPOINT PARA TABLETS*/
-@media  and {
+@media (min-width:481px) and (max-width: 768px) {
+  
+}
+
+/*BREAKPOINT PARA LAPTOPS*/
+@media (min-width:769px) and (max-width: 1024px) {
+  
+}
+
+/*BREAKPOINT PARA PC*/
+@media (min-width:1025px) {
   
 }
