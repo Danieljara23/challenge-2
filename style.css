@@ -11,12 +11,42 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
+
 }
 .hero {
     background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
     color: white;
-    width: 393px; 
-    height: 551px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 35px;
+    
+} 
+.line {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+margin-left: 60px;
+}
+.line3 {
+    margin-left: 60px;
+    size: 10px;
+    margin-bottom: 250px;
+}
+hr { 
+
+  border: none; 
+  border-top: 1px solid white; 
+  margin: 0 20px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  height: 150px;
+  transform: rotate(90deg);
+  margin-bottom: 250px;
+ 
+  
+
 }
 .line2 {
     font-size: 16px;
@@ -36,9 +66,8 @@ h1 {
 header {
     background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
     color: white;
-    width: 393px;
-    height: 87px;
     left: 3px; 
+    padding: 35px;
 
 }
 .what-I-do {
@@ -181,7 +210,7 @@ h2 {
   .portfolio {
     background-color: rgba(251, 251, 251, 1);
     width: 393px;
-    height: 2892px;
+    height: 2800px;
     top: 2999px;
     gap: 25px;
     display: flex;
@@ -253,14 +282,93 @@ h2 {
     width: 344px;
     height: 394px; 
  }  
-
-
-
-
- 
+.quote {
+    position: relative;
+    width: 393px;
+    height: 296px;
+       }
+.quote-container {
+    width: 393px;
+    height: 304px;
+    position: relative;
+}
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.59); 
+}
+.line8 {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.line9 {
+    color: white;
+    padding-bottom: 25px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+}
+.coffee {
+    width: 100%;
+    height: 100%;
+}
+.mark {
+color: rgba(255, 203, 125, 1);
+width: 80px;
+height: 50px;
+top: 5538px;
+left: 3621px;
+}
+.logo {
+width: 42px;
+height: 42px;
+top: 5827.71px;
+left: 3494px;
+border-radius: 28px;
+}
+footer {
+width: 393px;
+height: 143px;
+background: rgba(33, 147, 176, 1);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 17px;
+}
+.logo-holder {
+    display: flex;
+    gap: 18px;
+    padding-top: 30px;
+}
+.background-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
   .box {
     width: 393px;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
 }
+ 
