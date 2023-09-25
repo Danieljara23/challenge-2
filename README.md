@@ -35,5 +35,3 @@ Una vez termines tu solución, deberás compartir:
 ## Hacker edition:
 Los siguientes requerimientos no son obligatorios:
 - Los links del header deben llevar a las diferentes secciones de la página.
-
-
