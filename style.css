@@ -481,7 +481,7 @@ footer {
 
   .my-resume {
     width: 480px;
-    height: 700px;
+    height: auto;
     justify-content: center;
   }
 
@@ -489,6 +489,8 @@ footer {
     display: flex;
     gap: 50px;
     margin-left: 20px;
+    flex-wrap: wrap;
+    
 
   }
 
