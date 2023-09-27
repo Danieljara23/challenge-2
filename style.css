@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins'
+  font-family: 'Poppins';
 }
 
 a {
@@ -15,31 +15,36 @@ a {
   text-decoration: none;
   color: white;
 }
+
 header {
-  width: 393px;
+  width: 320px;
   background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
   left: 3px;
-  padding: 35px;
+  justify-content: center;
 }
+
 .home {
   font-weight: 700;
   text-decoration: none;
 }
+
 nav ul {
   display: none;
   list-style: none;
 }
 
+nav {
+  padding: 35px;
+}
+
 .hero {
-  width: 393px;
+  width: 320px;
   background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
   color: white;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 35px;
-
 }
 
 .line {
@@ -51,18 +56,20 @@ nav ul {
 
 .line3 {
   margin-left: 60px;
-  size: 10px;
+  font-size: 10px;
   margin-bottom: 250px;
 }
 
 hr {
-  border: none;
-  border-top: 1px solid white;
   margin: 0 20px;
   border: 1px solid rgba(255, 255, 255, 1);
   height: 150px;
   transform: rotate(90deg);
   margin-bottom: 250px;
+}
+
+.line1 {
+  padding-left: 14px;
 }
 
 .line2 {
@@ -72,20 +79,24 @@ hr {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  padding-left: 14px;
 }
+
 .center {
   width: 300px;
 }
+
 h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 90px;
   letter-spacing: 0em;
   text-align: left;
+  padding-left: 14px;
 }
 
 .what-I-do {
-  width: 393px; 
+  width: 320px;
   height: 1009px;
   top: 551px;
   background: #FBFBFB;
@@ -159,7 +170,7 @@ h2 {
 }
 
 .my-resume {
-  width: 339px;
+  width: 320px;
   height: 1281px;
   top: 1616px;
   left: 27px;
@@ -167,7 +178,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 30px;
   gap: 15px;
   margin-bottom: 80px;
 }
@@ -177,6 +187,7 @@ h2 {
   display: grid;
   gap: 20px;
   border: 50px;
+  width: 300px;
 }
 
 h4 {
@@ -193,7 +204,7 @@ h5 {
 }
 
 .educard-container {
-  width: 339px;
+  width: 287px;
   height: 152px;
   border-radius: 10px;
   border-color: rgba(245, 245, 245, 1);
@@ -237,10 +248,15 @@ h5 {
   margin-top: 2px;
 }
 
+.info-holder {
+  width: 320px;
+  padding-left: 25px;
+}
+
 .portfolio {
   background-color: rgba(251, 251, 251, 1);
-  width: 393px;
-  height: 2800px;
+  width: 320px;
+  height: 2500px;
   top: 2999px;
   gap: 25px;
   display: flex;
@@ -319,21 +335,23 @@ h5 {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .size {
-  width: 344px;
-  height: 394px;
+  width: 310px;
+  height: 325px;
 }
 
 .quote {
   position: relative;
-  width: 393px;
+  width: 320px;
   height: 296px;
 }
 
 .quote-container {
-  width: 393px;
+  width: 320px;
   height: 304px;
   position: relative;
 }
@@ -393,7 +411,7 @@ h5 {
 }
 
 footer {
-  width: 393px;
+  width: 320px;
   height: 143px;
   background: rgba(33, 147, 176, 1);
   color: white;
@@ -420,63 +438,353 @@ footer {
   justify-content: center;
 }
 
+@media screen and (min-width: 320px) and (max-width:480px) {
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  nav {
-   display: flex;
-   justify-content: space-between;
-  }
   nav ul {
-    display: flex;
-    justify-content: space-evenly; 
+    display: none;
+    justify-content: space-evenly;
     justify-content: flex-end;
     gap: 10px;
   }
+
+  .line1 {
+    padding-left: 35px;
+  }
+
   .center {
     width: 400px;
+    padding-left: 20px;
   }
+
+  .line {
+    padding-left: 25px;
+  }
+
   header {
-    width:  834px;
+    width: 480px;
   }
+
   .hero {
-    width: 834px;
+    width: 480px;
   }
+
   .what-I-do {
-    width: 834px;
-    height: 478px; 
+    width: 480px;
+    height: 778px;
   }
+
   .card-holder {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
   }
+
   .my-resume {
-    width: 834px;
-    height: 700px; 
+    width: 480px;
+    height: 700px;
     justify-content: center;
   }
-.info-holder {
-  display: flex;
-  gap: 50px;
-  margin-left: 20px;
+
+  .info-holder {
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+
+  }
+
+  .portfolio {
+    width: 480px;
+    height: 2500px;
+    gap: 50px;
+  }
+
+  .galery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .size {
+    width: 244px;
+    height: 324px;
+  }
+
+  .quote-container {
+    width: 480px;
+  }
+
+  footer {
+    width: 480px;
+  }
+
 }
-.portfolio {
-  width: 834px;
-  height: 1100px;
-  gap: 50px;
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .center {
+    width: 400px;
+  }
+
+  header {
+    width: 768px;
+  }
+
+  .hero {
+    width: 768px;
+  }
+
+  .what-I-do {
+    width: 768px;
+    height: 478px;
+  }
+
+  .card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .my-resume {
+    width: 768px;
+    height: 700px;
+    justify-content: center;
+  }
+
+  .info-holder {
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+    justify-content: space-around;
+  }
+
+  .portfolio {
+    width: 768px;
+    height: 1500px;
+    gap: 50px;
+  }
+
+  .galery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .size {
+    width: 244px;
+    height: 324px;
+  }
+
+  .quote-container {
+    width: 768px;
+  }
+
+  footer {
+    width: 768px;
+  }
 }
-.galery {
-  display: flex;
-  flex-wrap: wrap;
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .center {
+    width: 400px;
+  }
+
+  .center {
+    width: 600px;
+    padding-left: 65px;
+  }
+
+  h1 {
+    padding-left: 80px;
+  }
+
+  .line1 {
+    padding-left: 80px;
+  }
+
+  .line {
+    padding-left: 80px;
+  }
+
+  header {
+    width: 1024px;
+  }
+
+  .hero {
+    width: 1024px;
+  }
+
+  .what-I-do {
+    width: 1024px;
+    height: 478px;
+  }
+
+  .card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .my-resume {
+    width: 1024px;
+    height: 700px;
+    justify-content: center;
+  }
+
+  .education-experience {
+    width: auto;
+  }
+
+  .info-holder {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+  }
+
+  .portfolio {
+    width: 1024px;
+    height: 1100px;
+    gap: 50px;
+  }
+
+  .galery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .size {
+    width: 244px;
+    height: 324px;
+  }
+
+  .quote-container {
+    width: 1024px;
+  }
+
+  footer {
+    width: 1024px;
+  }
+
 }
-.size {
-  width: 244px;
-  height: 324px;
-}
-.quote-container {
-width: 834px;
-}
-footer {
-  width: 834px;
-}
+
+@media screen and (min-width: 1025px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .center {
+    width: 800px;
+    padding-left: 100px;
+  }
+
+  h1 {
+    padding-left: 100px;
+  }
+
+  .line1 {
+    padding-left: 115px;
+  }
+
+  .line {
+    padding-left: 100px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .what-I-do {
+    width: 100%;
+    height: 478px;
+  }
+
+  .card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .educard-container {
+    width: 400px;
+    gap: 50px;
+  }
+
+  .education-experience {
+    width: auto;
+  }
+
+  .my-resume {
+    width: 100%;
+    height: 800px;
+    gap: 50px;
+
+  }
+
+  .info-holder {
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    padding-left: 500px;
+  }
+
+  .portfolio {
+    width: 100%;
+    height: 1100px;
+    gap: 50px;
+  }
+
+  .galery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .size {
+    width: 300px;
+    height: 324px;
+  }
+
+  .quote {
+    width: 100%;
+  }
+
+  .quote-container {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
