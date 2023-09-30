@@ -141,6 +141,38 @@ h1{
 .resume{
   padding-top: 30px;
 }
+.cards-container-2{
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+.resume-card{
+  width: 339px;
+  height: 152px;
+  border-radius: 10px;
+  border: 1px solid #F5F5F5;
+  border-bottom: 5px solid  #F5F5F5;
+  display: grid;
+  row-gap: 5px;
+}
+.resume-info{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.education{
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+.experience{
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
 h3{
   font-family: Poppins;
   font-size: 16px;
@@ -159,6 +191,8 @@ h2{
   letter-spacing: 0em;
   text-align: center;
   color: #4A4A4A;
+  padding-top: 10px;
+
 }
 
 h4{
@@ -185,6 +219,9 @@ h5{
   letter-spacing: 0em;
   text-align: center;
 }
+.title{
+  align-self: flex-start;
+}
 .date{
   width: 67.36px;
   height: 19px;
@@ -195,9 +232,12 @@ h5{
   font-weight: 600;
   line-height: 15px;
   letter-spacing: 0em;
-  text-align: center;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .resume-cont{
   font-family: Poppins;
   font-size: 10px;
@@ -206,6 +246,10 @@ h5{
   letter-spacing: 0em;
   text-align: left;
   color:#8A8A8A;
+  width: 305px;
+  height: 52px;
+  justify-self: center;
+
 }
 .another-menu{
   font-family: Poppins;
@@ -270,11 +314,6 @@ footer{
   justify-content: center;
   align-items: center;
 }
-.resume-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
