@@ -96,7 +96,50 @@ h1{
 }
 
 .services{
-    background:#FBFBFB;
+  background:#FBFBFB;
+}
+.cards-container{
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 90px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 203.54px;
+  height: 240.59px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 4px solid #2193B0
+}
+.content{
+  width: 187.43px;
+  height: 166.49px;
+  display: grid;
+  justify-items: center;
+
+}
+.img-card{
+  align-self: center;
+}
+
+.one{
+  height: 51px;
+}
+.two{
+  height: 40.42px;
+}
+.three{
+  height: 52.93px;
+}
+.resume{
+  padding-top: 30px;
 }
 h3{
   font-family: Poppins;
@@ -106,6 +149,7 @@ h3{
   letter-spacing: 0em;
   text-align: center;
   color: #2193B0;
+  padding-top: 30px;
 }
 h2{
   font-family: Poppins;
@@ -126,12 +170,12 @@ h4{
   text-align: center;
 }
 .service-cont{
-  font-family: Poppins;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
+  
 }
 h5{
   font-family: Poppins;
@@ -186,7 +230,7 @@ h5{
 }
 
 .quote{
-  width: 394px;
+  max-width: 394px;
   height: 301px;
 }
 .quote img{
@@ -214,19 +258,12 @@ color: white;
 }
 
 .works{
-    background:#FBFBFB;
+  background:#FBFBFB;
 }
 footer{
-    background: #2193B0;
+  background: #2193B0;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black;
-}
 .big-images{
   display: flex;
   flex-direction: column;
@@ -239,4 +276,5 @@ footer{
   justify-content: center;
   align-items: center;
 }
+
 
