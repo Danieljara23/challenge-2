@@ -99,6 +99,7 @@ h1{
   background:#FBFBFB;
 }
 .cards-container{
+  min-width: 320px;
   padding-top: 30px;
   display: grid;
   justify-content: center;
@@ -140,6 +141,10 @@ h1{
 }
 .resume{
   padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .cards-container-2{
   display: grid;
@@ -165,7 +170,9 @@ h1{
 }
 .education{
   padding-top: 30px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .experience{
@@ -173,6 +180,7 @@ h1{
   display: grid;
   justify-content: center;
 }
+
 h3{
   font-family: Poppins;
   font-size: 16px;
@@ -251,30 +259,68 @@ h5{
   justify-self: center;
 
 }
+.another{
+  width: 360px;  
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 .another-menu{
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: left;
   color: #6DD5ED;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 5px; 
+  width: 100%;
+ 
+}
+
+.another-menu li{
+  height: 37px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.desing{
+  width: 122px;
+  height: 37px;
+}
+.print{
+  width: 134px;
+  height: 37px;
+}
+.develope{
+  width: 160px;
+  height: 37px;
 }
 .others{
   border: 1px solid #6DD5ED;
+  border-radius: 30px;
 }
 .all{
+  width: 86px;
+  height: 37px;
+  border-radius: 30px;
   border: none;
   background:#6DD5ED;
   color: white;
 }
+
 .big{
   width: 344px;
   height: 394px;
 }
 
 .quote{
-  max-width: 394px;
+  min-width: 320px;
   height: 301px;
 }
 .quote img{
@@ -302,7 +348,13 @@ color: white;
 }
 
 .works{
+  padding-top: 30px;
   background:#FBFBFB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 90px;
 }
 footer{
   background: #2193B0;
@@ -311,8 +363,11 @@ footer{
 .big-images{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 
