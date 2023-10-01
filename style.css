@@ -320,19 +320,54 @@ h5{
 }
 
 .quote{
-  min-width: 320px;
-  height: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.quote img{
-  width: 100%;
-}
-.quote-cont{
-color: white;
 
+#background{
+  min-width: 394px;
+  height: 301px;
+  background-image:
+  linear-gradient( rgba(0,0,0, 0.5), rgba(0,0,0, 0.5) ),
+  url(./assets/pxfuel.jpg) ;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.quote-cont img{
+
+.quote-text{
+  width: 325px;
+  height: 170px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-self: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+#background img{
   width: 29px;
   height: 27px;
+  align-self: center;
+  filter: invert(88%) sepia(94%) saturate(3433%) hue-rotate(304deg) brightness(106%) contrast(105%);
+}
+
+.person{
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  align-self: center;
 }
 .social-media{
   display: flex;
@@ -356,6 +391,7 @@ color: white;
   align-items: center;
   padding-bottom: 90px;
 }
+
 footer{
   background: #2193B0;
 }
@@ -369,6 +405,7 @@ footer{
   gap: 30px;
   padding-top: 30px;
 }
+
 
 
 
