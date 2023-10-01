@@ -562,9 +562,6 @@ h1{
   .resume-card{
     width: 339px;
     height: 152px;
-    border-radius: 10px;
-    border: 1px solid #F5F5F5;
-    border-bottom: 5px solid  #F5F5F5;
     display: grid;
     row-gap: 5px;
   }
@@ -950,9 +947,6 @@ h1{
   .resume-card{
     width: 362.35px;
     height: 152px;
-    border-radius: 10px;
-    border: 1px solid #F5F5F5;
-    border-bottom: 5px solid  #F5F5F5;
     display: grid;
     row-gap: 5px;
   }
@@ -1352,9 +1346,6 @@ h1{
   .resume-card{
     width: 445.88px;
     height: 152px;
-    border-radius: 10px;
-    border: 1px solid #F5F5F5;
-    border-bottom: 5px solid  #F5F5F5;
     display: grid;
     row-gap: 5px;
   }
