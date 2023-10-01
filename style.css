@@ -25,9 +25,19 @@ header{
   gap: 30px;
   align-items: flex-end;
 }
+h1{
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
 .about{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   color: white;
 }
 .about-me{
@@ -86,15 +96,6 @@ header{
     height: 87px;
   }
 
-  h1{
-    font-family: Poppins;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 90px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-  }
   .name{
     font-family: Poppins;
     font-size: 20px;
@@ -460,8 +461,6 @@ header{
       padding-top: 30px;
     }
   }
-
-
 @media screen and (min-width: 481px) and (max-width: 768px){
   .menu ul {
     list-style: none;
@@ -475,15 +474,6 @@ header{
     height: 87px;
   }
 
-  h1{
-    font-family: Poppins;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 90px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-  }
   .name{
     font-family: Poppins;
     font-size: 20px;
@@ -848,7 +838,7 @@ header{
     padding-top: 30px;
 }
 
-}
+} 
 @media screen and (min-width: 769px) and (max-width:1024px){
   .menu {
     justify-content: space-between;
@@ -868,15 +858,6 @@ header{
     height: 87px;
   }
 
-  h1{
-    font-family: Poppins;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 90px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-  }
   .name{
     font-family: Poppins;
     font-size: 20px;
@@ -924,8 +905,8 @@ header{
     padding-bottom: 90px;
   }
   .card{
-    width: 203.54px;
-    height: 240.59px;
+    width: 201.98px;
+    height: 250px;
     border-radius: 10px;
     border-bottom: 4px solid #2193B0
   }
@@ -937,13 +918,13 @@ header{
   }  
 
   .one{
-    height: 51px;
+    height: 53px;
   }
   .two{
-    height: 40.42px;
+    height: 42px;
   }
   .three{
-    height: 52.93px;
+    height: 53px;
   }
   .resume{
     padding-top: 30px;
@@ -963,7 +944,7 @@ header{
     padding-top: 20px;
   }
   .resume-card{
-    width: 339px;
+    width: 362.35px;
     height: 152px;
     border-radius: 10px;
     border: 1px solid #F5F5F5;
@@ -984,11 +965,13 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
   }
   .experience{
     padding-top: 60px;
     display: grid;
     justify-content: center;
+    justify-items: flex-start;
   }
 
   h3{
@@ -1039,8 +1022,8 @@ header{
   }
 
     .date{
-    width: 67.36px;
-    height: 19px;
+    width: 62px;
+    height: 15px;
     border-radius: 3px;
     background: #FFB470;
     font-family: Poppins;
@@ -1062,7 +1045,7 @@ header{
     letter-spacing: 0em;
     text-align: left;
     color:#8A8A8A;
-    width: 305px;
+    width: 340px;
     height: 52px;
     justify-self: center;
 
@@ -1206,8 +1189,8 @@ header{
   .social-media .social-m-menu li a.linkedin {
     width: 19.57px;
     height: 18.74px;
+    position: absolute;
   }
-
 
   .works{
     padding-top: 30px;
@@ -1252,6 +1235,411 @@ header{
 
   }
 }
+@media screen and (min-width: 1025px){
+  header{
+    height: 832px;
+  }
+  .menu {
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    display: flex;
+    width: 150px;
+    list-style: none;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    min-width: 320px;
+    height: 87px;
+  }
+
+  .name{
+    padding-top: 30px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  .about{
+    padding-left: 90px;
+    height: 745px;
+  }
+  .about-me{
+    width: 500.78px;
+    height: 62.01px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .line{
+    width: 240.7px;
+
+  }
+   .learn{
+    height: 20px;
+    padding-bottom: 60px;
+  }
+  .more{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;  
+    color: white;
+    padding-left: 30px;
+  }
+  .cards-container{
+    min-width: 320px;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 90px;
+  }
+  .card{
+    width: 310px;
+    height: 250px;
+    border-radius: 10px;
+    border-bottom: 4px solid #2193B0
+  }
+  .content{
+    width: 281px;
+    height: 135px;
+    display: grid;
+    justify-items: center;
+  }  
+
+  .one{
+    height: 52.9px;
+  }
+  .two{
+    height: 55px;
+  }
+  .three{
+    height: 53px;
+  }
+  .resume{
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume-container{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+  }
+  .cards-container-2{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+  }
+  .resume-card{
+    width: 445.88px;
+    height: 152px;
+    border-radius: 10px;
+    border: 1px solid #F5F5F5;
+    border-bottom: 5px solid  #F5F5F5;
+    display: grid;
+    row-gap: 5px;
+  }
+  .resume-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  .education{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .experience{
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+    justify-items: flex-start;
+  }
+
+  h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2193B0;
+    padding-top: 60px;
+  }
+  h2{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4A4A4A;
+    padding-top: 10px;
+
+  }
+
+  h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .service-cont{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 281px;
+    height: 46px;   
+  }
+  h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .date{
+    width: 75.47px;
+    height: 19px;
+    border-radius: 3px;
+    background: #FFB470;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume-cont{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#8A8A8A;
+    width: 430.98px;
+    height: 52px;
+    justify-self: center;
+
+  }
+  .another{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .another-menu{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6DD5ED;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    gap: 30px; 
+    width: 100%;
+  
+  }
+
+  .another-menu li{
+    height: 37px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .desing{
+    width: 122px;
+    height: 37px;
+  }
+  .print{
+    width: 134px;
+    height: 37px;
+  }
+  .develope{
+    width: 160px;
+    height: 37px;
+  }
+  .others{
+    border: 1px solid #6DD5ED;
+    border-radius: 30px;
+  }
+  .all{
+    width: 86px;
+    height: 37px;
+    border-radius: 30px;
+    border: none;
+    background:#6DD5ED;
+    color: white;
+  }
+  .big{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #background{
+    min-width: 320px;
+    height: 469px;
+    background-image:
+    linear-gradient( rgba(0,0,0, 0.5), rgba(0,0,0, 0.5) ),
+    url(./assets/pxfuel.jpg) ;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 30px;
+  }
+  .quote-text{
+    width: 823px;
+    height: 99px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: center;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  #background img{
+    padding-top: 30px;
+    width: 70px;
+    height: 50px;
+    align-self: center;
+    filter: invert(88%) sepia(94%) saturate(3433%) hue-rotate(304deg) brightness(106%) contrast(105%);
+  }
+
+  .person{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    align-self: center;
+  }
+  .social-m-menu{
+    display: flex;
+    gap: 20px;
+  }
+  .social-media .social-m-menu li {
+    width: 60px;
+    height: 60px;
+    border-radius:30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .social-media .social-m-menu li a img {
+    width: 40px;
+    height: 40px;
+  }
+  .social-media .social-m-menu li a {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-media .social-m-menu li a img.linkedin {
+    width: 30px;
+    height: 31px;
+  }
+
+  .social-media .social-m-menu li a.linkedin {
+    width: 30px;
+    height: 31px;
+    position: absolute;
+  }
+
+  .works{
+    padding-top: 30px;
+    background:#FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+  }
+
+  footer{
+    background: #2193B0;
+    min-width: 320px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+  }
+  .big-images .big{
+    width: 293px;
+    height: 393px;
+  }
+  .big-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columnas de igual tamaño */
+    grid-template-rows: repeat(2, auto); /* 3 filas de altura automática */
+    justify-content: center;
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 30px;
+    padding-top: 90px;
+  }
+}
+
 
 
 
