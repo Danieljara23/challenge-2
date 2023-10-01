@@ -260,7 +260,7 @@ h5{
 
 }
 .another{
-  width: 360px;  
+  max-width: 360px;  
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -326,7 +326,7 @@ h5{
 }
 
 #background{
-  min-width: 394px;
+  min-width: 320px;
   height: 301px;
   background-image:
   linear-gradient( rgba(0,0,0, 0.5), rgba(0,0,0, 0.5) ),
@@ -369,18 +369,46 @@ h5{
   color: white;
   align-self: center;
 }
-.social-media{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+
 .social-m-menu{
+  display: flex;
+  gap: 20px;
+}
+.social-media .social-m-menu li {
   width: 42px;
   height: 42px;
   border-radius: 28px;
+  background-color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
+
+.social-media .social-m-menu li a img {
+  width: 28px;
+  height: 28px;
+}
+.social-media .social-m-menu li a {
+  position: absolute;
+  height: 28px;
+  width: 28px;
+}
+
+.social-media .social-m-menu li a img.linkedin {
+  width: 21px;
+  height: 21.7px;
+}
+.social-media .social-m-menu li a img.face {
+  filter: invert(27%) sepia(3%) saturate(5%) hue-rotate(314deg) brightness(95%) contrast(88%);
+}
+.social-media .social-m-menu li a.linkedin {
+  width: 21px;
+  height: 21.7px;
+}
+
 
 .works{
   padding-top: 30px;
@@ -394,8 +422,22 @@ h5{
 
 footer{
   background: #2193B0;
+  min-width: 320px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+footer p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
 .big-images{
   display: flex;
   flex-direction: column;
@@ -405,6 +447,7 @@ footer{
   gap: 30px;
   padding-top: 30px;
 }
+
 
 
 
