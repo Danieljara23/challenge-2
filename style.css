@@ -1635,10 +1635,10 @@ h1{
   }
   .big-images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 columnas de igual tamaño */
-    grid-template-rows: repeat(2, auto); /* 3 filas de altura automática */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto); 
     justify-content: center;
-    align-items: center; /* Centra los elementos verticalmente */
+    align-items: center; 
     gap: 30px;
     padding-top: 90px;
   }
