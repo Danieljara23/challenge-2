@@ -78,6 +78,15 @@ h1{
   background-color: white;
   border-bottom: solid #2193B0
 }
+.resume-card{
+  width: 339px;
+  height: 152px;
+  border-radius: 10px;
+  border: 1px solid #F5F5F5;
+  border-bottom: 5px solid  #F5F5F5;
+  display: grid;
+  row-gap: 5px;
+}
 .big{
   width: 100%; 
   height: auto; 
@@ -86,6 +95,7 @@ h1{
 .social-media .social-m-menu li a img.face {
     filter: invert(27%) sepia(3%) saturate(5%) hue-rotate(314deg) brightness(95%) contrast(88%);
   }
+
 
 @media screen and (min-width: 320px) and (max-width:480px){
   .menu ul {
