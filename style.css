@@ -1,0 +1,158 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.der {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio {
+    background: linear-gradient(to right, #2193B0, #6DD5ED);
+}
+
+.containTittle {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 834px;
+    height: 87px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* Estilos para el encabezado */
+header {
+    color: white;
+    padding: 10px;
+}
+
+.imgphoto {
+    width: 58px;
+    height: 52.91px;
+    top: 1055px;
+    left: 259px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para la sección de introducción */
+.containTittle {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los servicios */
+main {
+    padding: 20px;
+}
+
+main div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el portfolio */
+div>p,
+div>h2 {
+    text-align: center;
+}
+
+div>div>section {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div>div>section>p {
+    margin: 0;
+}
+
+/* Estilos para las imágenes del portfolio */
+div>div>img {
+    display: block;
+    margin: 5px;
+    width: 100px;
+    height: auto;
+
+}
+
+.redesSociales{
+    display: block;
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    width: 60px;
+    align-items: center;
+height: 60px;
+top: 3151px;
+left: 439px;
+gap: 0px;
+
+}
+
+.redesSocialesImg{
+    border-radius: 30px 0px 0px 0px;   
+}
+
+/* Estilos para la sección de citas */
+div:nth-last-child(2) {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+div:last-child {
+    text-align: center;
+    
+    color: white;
+    padding: 10px;
+}
+
+div>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.redesSocialesImg {
+    border-radius: 30px 0px 0px 0px;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+} 
+  .imgTamaño{
+    width: 60px;
+height: 60px;
+border-radius: 30px 30px 30px 30px ;
+display: flex;
+justify-content: center;
+  }
+
+/* Para centrar horizontalmente */
+.imgTamaño,
+.redesSocialesImg {
+    display: block; /* Asegúrate de que los elementos sean bloques */
+    margin: 0 auto; /* Centra los elementos horizontalmente */
+}
+
+/* Para centrar vertical y horizontalmente */
+.redesSociales {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.imgTamaño,
+.redesSocialesImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
