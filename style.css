@@ -240,81 +240,54 @@ width: 300px;
   font-size: 14px;
 }
 
-
-@media (max-width: 480px) {
-  .section__1 {
-    padding-left: 20px;
-    padding-top: 50px;
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
   }
 
-  .gallery {
-    margin-top: 40px;
+  .nav-link {
+    margin: 10px 0;
   }
 
-  .image-container {
-    margin: 20px;
+  .hero-title {
+    font-size: 30px;
   }
 
-  .card-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .quote-text {
-    width: 280px;
-    font-size: 14px;
-  }
-}
-
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .section__1 {
-    padding-left: 40px;
-    padding-top: 80px;
-  }
-
-  .gallery {
-    margin-top: 60px;
-  }
-
-  .image-container {
-    margin: 40px;
-  }
-
-  .quote-text {
-    width: 400px;
+  .hero-role {
     font-size: 16px;
   }
-}
 
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .section__1 {
-    padding-left: 60px;
-    padding-top: 100px;
+  .hero-info {
+    font-size: 14px;
   }
 
-  .gallery {
-    margin-top: 80px;
+  .service-card {
+    padding: 15px;
   }
 
-  .image-container {
-    margin: 60px;
-  }
-}
-
-
-@media (min-width: 1025px) {
-  .section__1 {
-    padding-left: 100px;
-    padding-top: 100px;
+  .service-icon {
+    width: 40px;
+    height: 40px;
   }
 
-  .gallery {
-    margin-top: 100px;
+  .service-name {
+    font-size: 16px;
   }
 
-  .image-container {
-    margin: 80px;
+  .service-description {
+    font-size: 12px;
+  }
+
+  .gallery-image {
+    height: 150px;
+  }
+
+  .quote-text {
+    font-size: 16px;
+  }
+
+  .social-text {
+    font-size: 12px;
   }
 }
