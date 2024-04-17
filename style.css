@@ -1,0 +1,286 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content-section {
+  background: linear-gradient(rgba(33, 147, 176, 1), rgba(109, 213, 237, 1));
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.head {
+  position: relative;
+  display: flex;
+}
+
+.about, .portfolio, .contact {
+  position: absolute;
+  right: 20px;
+  font-weight: 400; 
+  font-size: 16px; 
+  line-height: 24px;
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a.active {
+  font-weight: bold;
+}
+
+.left-align {
+  font-weight: 700;
+  color: white;
+  line-height: 24px;
+  margin: 10px; 
+}
+
+.text {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  color: white;
+  margin: 10px; 
+}
+
+.text-normal {
+  width: 222px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white; 
+  margin: 10px;  
+}
+
+.text-description {
+  width: 260px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin: 10px; 
+}
+
+.learn-more {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  height: 15px;
+  color: white;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 10px; 
+}
+
+.section {
+  background: rgba(251, 251, 251, 1);
+  top: 551px;
+}
+
+.text-title,.title{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(33, 147, 176, 1);
+}
+
+.text-subtitle,.subtitle {
+  font-size: 23px;
+  line-height: 34.5px;
+  text-align: center;
+  color: rgba(74, 74, 74, 1);
+}
+
+.card {
+  width: 204px;
+  border-radius: 10px;
+  border-bottom: 4px solid rgba(33, 147, 176, 1);
+  text-align: center;
+  margin: 60px auto 0;
+}
+
+.card__image {
+  width: 44px;
+  height: 51px;
+}
+
+.card__button,
+.card__buttons,
+.card__buttonss {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  width: 86px;
+  height: 37px;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+.card__button {
+  color: white;
+  background-color: rgba(109, 213, 237, 1);
+}
+
+.card__buttons, .card__buttonss {
+  color: rgba(109, 213, 237, 1);
+  border: 1px solid rgba(109, 213, 237, 1);
+  margin-top: 10px;
+}
+
+.card__buttonss {
+  width: 130px;  
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.images-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image__img {
+  width: 226px; 
+  height: 393px;
+  object-fit: cover; 
+}
+
+.photo {
+  position: relative;
+}
+
+.image-below {
+  width: 100%;
+  padding: 0;
+  background-color: rgba(58, 55, 55, 0.59);
+}
+
+.text-in-image {
+  position: absolute;
+  top: 20px; 
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+}
+
+.text-image {
+  font-weight: bold;
+}
+
+.cards-container, .photo, .text-overlay {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+
+.photo {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  position: relative; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h1.italic {
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-overlay p.bold {
+  font-weight: bold;
+}
+
+.text-overlay h1, .text-overlay p {
+  font-size: 16px;
+}
+
+.photo img {
+  width: 100%; 
+}
+
+section.blue_final {
+  background-color: rgba(33, 147, 176, 1)
+}
+
+img.final__app {
+  height: 19px;
+  padding-top: 12px;
+}
+
+.button__circul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.button__face {
+  width: 43px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: small;
+  text-align: center;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.img__apps {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.copyright {
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
