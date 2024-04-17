@@ -23,7 +23,6 @@ a {
     opacity: 0px;
 }
 
-/* Estilos para el encabezado */
 header {
     color: white;
     padding: 10px;
@@ -44,13 +43,11 @@ header {
     color: white;
 }
 
-/* Estilos para la sección de introducción */
 .containTittle {
     text-align: center;
     padding: 20px;
 }
 
-/* Estilos para los servicios */
 main {
     padding: 20px;
 }
@@ -60,7 +57,6 @@ main div {
     margin-bottom: 20px;
 }
 
-/* Estilos para el portfolio */
 div>p,
 div>h2 {
     text-align: center;
@@ -75,44 +71,38 @@ div>div>section>p {
     margin: 0;
 }
 
-/* Estilos para las imágenes del portfolio */
 div>div>img {
     display: block;
     margin: 5px;
     width: 100px;
     height: auto;
-
 }
 
-.redesSociales{
+.redesSociales {
     display: block;
     margin: 5px;
     width: 100px;
     height: auto;
     width: 60px;
     align-items: center;
-height: 60px;
-top: 3151px;
-left: 439px;
-gap: 0px;
-
+    height: 60px;
+    top: 3151px;
+    left: 439px;
+    gap: 0px;
 }
 
-.redesSocialesImg{
+.redesSocialesImg {
     border-radius: 30px 0px 0px 0px;   
 }
 
-/* Estilos para la sección de citas */
 div:nth-last-child(2) {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
 }
 
-/* Estilos para el pie de página */
 div:last-child {
     text-align: center;
-    
     color: white;
     padding: 10px;
 }
@@ -122,32 +112,32 @@ div>div {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .redesSocialesImg {
     border-radius: 30px 0px 0px 0px;
     width: 60px;
     height: 60px;
     margin-right: 5px;
 } 
-  .imgTamaño{
-    width: 60px;
-height: 60px;
-border-radius: 30px 30px 30px 30px ;
-display: flex;
-justify-content: center;
-  }
 
-/* Para centrar horizontalmente */
-.imgTamaño,
-.redesSocialesImg {
-    display: block; /* Asegúrate de que los elementos sean bloques */
-    margin: 0 auto; /* Centra los elementos horizontalmente */
+.imgTamaño {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Para centrar vertical y horizontalmente */
+.imgTamaño,
+.redesSocialesImg {
+    display: block;
+    margin: 0 auto;
+}
+
 .redesSociales {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 .imgTamaño,
